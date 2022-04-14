@@ -2,8 +2,7 @@
 Tracking my code
 # mycode (First ever Python Usage)
 
-One Paragraph of your project description goes here. Describe what you're trying to do.
-What is the purpose of putting up this repo?
+I want to learn how to effectively use python so that I can be a more effective member of the work force and increase future career prospects.
 
 ## Getting Started
 
