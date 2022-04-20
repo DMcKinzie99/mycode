@@ -10,26 +10,24 @@ Totodile={"Type":"Water", "Color":"Blue/Red", "Size":"Small", "Toes":"5"}
 Cyndaquil={"Type":"Fire", "Color":"Dark Blue", "Size":"Small", "Toes":"1"}
 #^^^My Database of Pokemon
 counter=1
+print(type(Bulbasaur))
 
 Type=input("What type of Pokemon do you you think you are? Fire, Water, Or Grass? ")#This would be the start of collecting info. from the user.
 
 if Type == "Grass":
     Color=input("What color do you feel describes you more? Green or Green?")
-else:
-    print("You Entered an invalid input, this is a linear exam. Please leave.")
     if Color=="Green":
         Toes=input("How many toes do you think a Pokemon should have? 1 or 3?")
-            if Toes >= "3":
-                print("Wow! You seem to be a Bulbasaur!")
-                while counter <5:
-                    print("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
-                    counter += 1
+        if Toes >= "3":
+            print("Wow! You seem to be a Bulbasaur!")
+            while counter <5:
+                print("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
+                counter += 1
         elif Toes < "3":
             print("Looks like you are a Chikorita, Congratulations!")
             while counter <5:
                 print("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM")
                 counter += 1
-
 if Type == "Fire":
     Color=input("What Color do you feel describes you more? Red or Dark Blue?")
     if Color=="Red":
