@@ -7,7 +7,7 @@ with open("345-0.txt","r") as foo:
             print(line)
             count += 1
             zoink.write(line)
-
+zoink.close()
 print(count)
 
 
