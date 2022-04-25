@@ -30,4 +30,9 @@ class Cheat_Loaded_Dice(Player): # inheritance of Player
           if self.dice[i] < 6:
               self.dice[i] += 1
           i += 1
-
+class Cheat_Extra_Die(Player):
+    def cheat(self):
+        i = 0
+        self.dice = []
+        for i in range(4):
+            self.dice.append(randint(1,6))
