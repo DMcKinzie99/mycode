@@ -46,7 +46,7 @@ def showStatus():
 #starting inventory
 inventory = ['Dragon radar']
 
-#staring health
+#starting health
 health = 50
 
 #a dictionary linking a room to other rooms
