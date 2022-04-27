@@ -154,6 +154,19 @@ while True:
             print('you currently have', ball_count,'Dragon balls')
             #delete the item from the room
             del rooms[currentRoom]['item']
+        elif "ball4" in rooms[currentRoom] and move[1] in rooms[currentRoom]["ball4"]
+            print("Seems like a fine day in South City! You are searching around for the Dragon Balls when you see a shady man playing a dice game in the street. You walk up to him and see he has the 4 star Dragon Ball! He claims that he will only give you the Dragon Ball if you can guess the number of the die he is rolling!")
+            gamestart = input("Would you care to play a game? (y/n): ")
+            if gamestart.lower() == "n":
+                break
+            elif gamestart.lower() == "y":
+                rolldice(1,6)
+                dieguess = input("Guess a number between 1 and 6! ")
+                    if dieguess == rolldice:
+                        print("Hey! You managed to guess right and the shady man gives you the 4 star Dragon Ball")
+                        inventory += [move[1]
+                        del rooms[currentRoom]["ball4"]
+
         elif "zsword" in rooms[currentRoom] and move[1] in rooms[currentRoom]['zsword']:
             #add the item to their inventory
             inventory += [move[1]]
